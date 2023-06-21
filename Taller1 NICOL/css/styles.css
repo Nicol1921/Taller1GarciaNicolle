@@ -1,0 +1,513 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+header {
+  background-color: #1d617c;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.content {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+
+h1 {
+  color: #000124;
+  text-align: center;
+
+
+}
+
+.image img {
+  width: 700%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 #82d5fc, 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+  background-color: #178daa;
+  color: #178daa;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, bold 20px;
+}
+/*ESTILOS DE LA PÁGINA DE CUADRO*/
+
+/* style2.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+input[type="text"],
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+input[type="text"]:focus,
+button:focus {
+  outline: none;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
+/*ESTILOS DE LA PÁGINA DE PALABRA*/
+
+.container1{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: px; 
+  text-align: center;
+  padding: 30px;
+ box-shadow: 0 4px 8px 0 #82d5fc, 0 6px 20px 0 rgba(0,0,0,0.19);
+ float: left;
+ width:450px;
+ position: relative;
+ left: 400px;
+ height: 400px;
+ margin: -1% auto;
+
+
+}
+
+.image1 img {
+margin:10px 20px;
+ box-shadow: 0 4px 8px 0 #82d5fc, 0 6px 20px 0 rgba(0,0,0,0.19);
+ float: left;
+ width:500px;
+ position: relative;
+ left: 500px;
+ height: 460px;
+ margin: -2% auto;
+
+
+}
+
+
+
+/*ESTILOS PARA LA PÁGINA DE GRADOS*/
+
+.container3 {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #134166;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: center;
+}
+
+  
+/*ESTILOS PARA LA PÁGINA TRIÁNGULO*/
+.container4 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.content4 {
+  display: inline-block;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content4 h1 {
+  color: #333;
+}
+
+.content4 form {
+  margin-top: 20px;
+}
+
+.content4 form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content4 form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content4 form button {
+  padding: 10px 20px;
+  background-color: #134166;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #020202;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/*ESTILOS PARA LA PÁGINA DE PROFESORES*/
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.container5 {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #134166;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/*ESTILOS DE LA PÁGINA FIGURAS */
+
+.shapes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.shape-card {
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shape-card h2 {
+  color: #070707;
+}
+
+.shape-card img {
+  width: 150px;
+  margin: 20px auto;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #0f6080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(16, 70, 170, 0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(18, 80, 138, 0.1);
+  max-width: 400px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-title {
+  color: #0f0f0f;
+  text-align: center;
+}
+
+.modal-body {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.modal-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #165470;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #050505;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
+
+/*ESTILOS DE LA PÁGINA DEL FORMULARIO*/
+
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.container3 {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #134166;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+.feedback{
+  max-width: 100%;
+  width: 35%;
+  background-color: rgb(69, 28, 146);
+  padding: 5px;
+  color: #000000;
+  font-size: 16px;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.success{
+  border: 3px solid rgb(10, 167, 10);
+}
+
+.error{
+  border: 3px solid red;
+}
+
